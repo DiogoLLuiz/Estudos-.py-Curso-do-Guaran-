@@ -1,0 +1,12 @@
+print('Digite dois números inteiros')
+n1 = int(input('O primeiro:\n'))
+n2 = int(input('O segundo:\n'))
+soma = n1 + n2
+subt = n1 - n2
+mult = n1 * n2
+divR = n1 / n2
+divN = n1 // n2
+rest = n1%n2
+elev = soma**2
+raiz = soma**(1/2)
+print(f'A soma dos números digitados é {soma};\nA subtração dos números digitados é {subt}\nA multiplicação dos números digitados é {mult};\nA divisão racional dos números digitados é {divR};\nA divisão natural dos números digitados é {divN};\nO resto da divisão é {rest};\nA potênciação da soma dos números e {elev};\nA raiz quadrada da somo dos números é {raiz}')
