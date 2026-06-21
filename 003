@@ -1,0 +1,14 @@
+colors = {'nd':'\033[m',
+          'az':'\033[36m',
+          'brato':'\033[30m',
+          'verm':'\033[31m',
+          'verd':'\033[32m',
+          'am':'\033[33m',
+          'cia':'\033[36m',
+          'ro':'\033[35m',
+          'cin':'\033[37m'}
+n = str(input('{}Digite o seu nome '.format(colors['az'])))
+i = int(input('{}DIgite a sua idade '.format(colors['ro'])))
+p = float(input('{}Digite o seu peso{} '.format(colors['am'],colors['nd'])))
+print(f'Seu nome é {n}, você tem {i} anos e o seu peso e {p} kilos')
+e = input('O programa acabou... ok? ')
