@@ -1,0 +1,10 @@
+print('='*10,'Tabuada','='*10)
+n = int(input('Digite o número ao qual você deseja verificar a tabuada: '))
+m = 0
+f = 0
+while True:
+    print(f'{n} X {m} = {f}')
+    m += 1
+    f += n
+    if f > n*10:
+        break
