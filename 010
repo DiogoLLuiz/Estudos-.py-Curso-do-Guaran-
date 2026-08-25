@@ -1,0 +1,4 @@
+print('='*10, 'Real for Dollar', '='*10)
+real = float(input('Digite o valor (R$): R$ '))
+trns = real * 0.20
+print(f'R$ {real} em dollar equivale a US$ {trns:.2f}')
