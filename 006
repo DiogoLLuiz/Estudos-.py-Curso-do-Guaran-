@@ -1,0 +1,4 @@
+from math import sqrt
+print("Dobro, Triplo, Sqrt")
+n = int(input("Digite um número: "))
+print(f"Tendo em vista o número escolhido, {n}, o dobro {n*2}, o triplo {n*3} e a sqrt é {sqrt(n):.2f} ")
