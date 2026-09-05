@@ -1,0 +1,5 @@
+#60 - 0.15/day
+print('='*10, 'Aluguel de Automóveis', '='*10)
+d = int(input('Digite a quantidade de dias que você deseja ficar com o carro: '))
+n = float(input('Digite a quantidade de Km pecorridos: '))
+print(f'O valor do aluguel fica R$ {d*60+n*0.15:.2f}')
