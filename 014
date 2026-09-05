@@ -1,0 +1,3 @@
+print('='*10, 'Celcius For Fahrenheit', '='*10)
+n = float(input('Digite o valor em Celcius: '))
+print(f'Tendo em vista a temperatura digitada em celcius, {n} C, convertida em fahrenheit fica: {(n*9/5)+32} F')
