@@ -1,0 +1,5 @@
+from math import hypot
+print('Calculo da hypotenusa')
+c1 = int(input("Digite o valor do primeiro cateto "))
+c2 = int(input("Digite o valor do segundo cateto"))
+print(f'Tendo em vista os tamanhos dos catetos, o valor da hypotenusa é {hypot(c1,c2}'
