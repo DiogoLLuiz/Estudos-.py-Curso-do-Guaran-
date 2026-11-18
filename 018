@@ -1,0 +1,6 @@
+from math import sin, cos, tan, radians
+print("Seno, Cosseno e Tangente")
+an = int(input('Digite o ângulo escolhido: '))
+print(f'O seno do ângulo fornecido é {sin(radians(an)):.2f}')
+print(f'O cosseno do ângulo fornecido é {cos(radians(an)):.2f}')
+print(f'A tangente do ângulo fornecido é {tan(radians(an)):.2f}')
