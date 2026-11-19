@@ -1,0 +1,10 @@
+from random import shuffle
+print('Not Definid')
+lista = [str(input('Digite o none do primeiro aluno: ')), str(input('Digite o nome do segundo aluno: ')), str(input('Digite o nome do terceiro aluno: ')), str(input('Digite o nome do quarto aluno: '))]
+shuffle(lista)
+print('\nA sequência é: ')
+for x in (0, 1, 2, 3):
+    if x != 3:
+        print(f'{lista[x]}, ',end='')
+    else:
+        print(f'{lista[x]}.')
