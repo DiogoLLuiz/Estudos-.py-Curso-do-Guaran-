@@ -1,0 +1,19 @@
+num = int(input('Digite um número inteiro: '))
+b = str(num)
+if num > 999:
+    print('A unidado do número é:',b[3])
+    print('A dezena do número é:', b[2])
+    print('A centena do número é:', b[1])
+    print('O milhar do número é:', b[0])
+else:
+    if num > 99:
+        print('A unidado do número é:',b[2])
+        print('A dezena do número é:', b[1])
+        print('A centena do número é:', b[0])
+    else:
+        if num >= 9:
+            print('A unidado do número é:',b[1])
+            print('A dezena do número é:', b[0])
+        else:
+            if num > 0:
+                print('A unidado do número é:', b[0])
