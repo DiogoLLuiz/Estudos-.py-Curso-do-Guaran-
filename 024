@@ -1,0 +1,11 @@
+print('='*10, 'SANTO', '='*10)
+c = 0
+n = str(input('Digite o nome da cidade aonde você nasceu: ')).strip().title().split()
+for a in range(0,len(n)):
+    m = n[a] == 'Santos'
+    if m == True:
+        print("Tem 'Santos' no nome da sua cidade!")
+        c += 1
+        break
+if c == 0:
+    print("Não tem 'Santos' no nome da sua cidade!")
