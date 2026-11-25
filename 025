@@ -1,0 +1,6 @@
+nome = str(input('Digite o seu nome completo: ')).title().split()
+t = 'Silva' in nome
+if t:
+    print("O seu nome tem 'Silva'!")
+else:
+    print("O seu nome não tem 'Silva'!")
