@@ -1,0 +1,7 @@
+n = ' '.join(str(input("Digite alguma coisa: ")).lower().split())
+if n.count('a') > 0:
+    print(f"O que foi digitado possui {n.count('a')} A's sem acentos!")
+    print(f"Inclusive o primeiro 'A' encontrado se encontra na posição de número {n.find('a')+1}!")
+    print(f"Inclusive o último 'A' encontrado se encontra na posição de número {n.rfind('a') + 1}!")
+else:
+    print('O que foi digitado não possui a letra A')
