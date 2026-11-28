@@ -1,0 +1,22 @@
+from random import choice
+from time import sleep
+print('Computador computando um número aleatorio de 0 a 5...\n')
+sleep(0.8)
+print('...\n')
+sleep(0.8)
+print('...\n')
+sleep(0.8)
+print('Número escolhido!!\n')
+n = (1,2,3,4,5)
+esc = choice(n)
+while True:
+    ind = int(input('Agora escolha um número de 0 a 5: \n'))
+    sleep(0.8)
+    if 0 <= ind <= 5:
+        break
+    else:
+        print('O número escolhido não se encontra no limite delimitado, tente novamente!!\n')
+if ind == esc:
+    print(f'Uouuu man, você acertou na mosca, o número computado foi {esc} também!!')
+else:
+    print(f'Você errou, o número computado foi {esc}, não {ind}!!')
